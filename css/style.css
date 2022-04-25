@@ -1,11 +1,108 @@
-.imagem-1 {
+.imagem-oceano1 {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  height: 400px;
 }
 
 .texto-imagem {
   position: absolute;
   text-align: center;
+  margin: 50px;
   color: #fff;
+}
+
+.simbolo1 {
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.simbolo2 {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.simbolo3 {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.texto-descricao {
+  margin: 0 57px;
+}
+
+p {
+  color: grey;
+}
+
+.img-celular {
+  margin-top: 6rem;
+}
+
+.titulo-descricao2 {
+  margin-top: 3rem;
+}
+
+.texto-descricao2 {
+  text-align: justify;
+  margin: 0 46px;
+}
+
+.img-codigo-note {
+  margin-top: 2rem;
+}
+
+.titulo3 {
+  margin-top: 9rem;
+  margin-bottom: 3rem;
+}
+
+.img-circular {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: auto;
+}
+
+.nome {
+  padding: 0.5rem;
+}
+
+.comentario {
+  padding-bottom: 2rem;
+}
+
+.comentario2-3 {
+  padding-bottom: 2rem;
+  margin: 0 10px;
+}
+
+.imagem-oceano2 {
+  margin-top: 7rem;
+}
+
+.links-rodape {
+  margin-top: 4rem;
+  margin-bottom: 0.8rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+
+.copy {
+  color: #9da8b5;
+  font-size: 0.8rem;
+}
+
+.redes-sociais {
+  margin-bottom: 6rem;
+  padding-left: 1rem;
 }
