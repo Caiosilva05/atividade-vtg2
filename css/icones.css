@@ -1,0 +1,34 @@
+.simbolo1 {
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.simbolo2 {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.simbolo3 {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.texto-descricao {
+  margin: 0 3rem 3rem 3rem;
+}
+
+p {
+  color: grey;
+}
+
+@media screen and (min-width: 1024px) {
+}

@@ -1,0 +1,36 @@
+#header-oceano {
+  width: 100%;
+  position: relative;
+}
+
+.imagem-oceano1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.texto-imagem1 {
+  position: absolute;
+  width: 100%;
+  top: 20%;
+  color: #fff;
+}
+.email-imagem {
+  justify-content: center;
+}
+
+.input-email {
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  margin-left: 1rem;
+}
+
+.input-botao {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+}
+
+@media screen and (min-width: 1024px) {
+}

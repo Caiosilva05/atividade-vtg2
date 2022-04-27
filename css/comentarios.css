@@ -1,0 +1,26 @@
+.titulo3 {
+  margin: 9rem 0 3rem 0;
+}
+
+.img-circular {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: auto;
+}
+
+.nome {
+  margin: 0.5rem;
+}
+
+.comentario {
+  margin: 0 2rem 3rem 2rem;
+}
+
+.comentario2-3 {
+  margin: 0 2.5rem 2rem 2.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+}

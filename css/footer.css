@@ -1,0 +1,33 @@
+.imagem-oceano2 {
+  margin-top: 5rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.texto-imagem2 {
+  position: absolute;
+  width: 100%;
+  top: 80%;
+  color: #000;
+}
+
+.links-rodape {
+  margin: 4rem 3rem 0.8rem 3rem;
+}
+
+.link {
+  margin: 0 0.8rem;
+}
+
+.copy {
+  color: #9da8b5;
+  font-size: 0.8rem;
+}
+
+.redes-sociais {
+  margin-bottom: 6rem;
+  padding-left: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+}

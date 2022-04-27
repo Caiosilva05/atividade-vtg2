@@ -1,0 +1,20 @@
+.img-celular {
+  margin-top: 6rem;
+}
+
+.titulo-descricao2 {
+  margin: 3rem 3rem 0 3rem;
+  text-align: justify;
+}
+
+.texto-descricao2 {
+  text-align: justify;
+  margin: 1rem 3rem 0 3rem;
+}
+
+.img-codigo-note {
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+}
