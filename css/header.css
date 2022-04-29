@@ -4,33 +4,59 @@
 }
 
 .imagem-oceano1 {
+  background-image: url(/imagens/oceano.png);
+  height: auto;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  padding: 6rem;
+  background-size: cover;
 }
 
 .texto-imagem1 {
-  position: absolute;
-  width: 100%;
-  top: 20%;
+  position: relative;
+  margin-bottom: 2.5rem;
   color: #fff;
 }
 .email-imagem {
+  display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .input-email {
-  position: absolute;
-  width: 50%;
-  top: 50%;
-  margin-left: 1rem;
+  position: relative;
+  width: 3rem;
+  padding: 1rem 7rem;
+  margin: 0 1rem;
 }
 
 .input-botao {
-  position: absolute;
-  top: 50%;
-  left: 60%;
+  position: relative;
+  margin-right: 1rem;
+  padding: 1rem 1.5rem;
 }
 
 @media screen and (min-width: 1024px) {
+  .container {
+    display: flex;
+  }
+
+  .imagem-oceano1 {
+    background-image: url(/imagens/oceano.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 100%;
+    padding: 6rem;
+  }
+  .input-email {
+    position: relative;
+    width: 28%;
+    padding: 0.5rem 5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  .input-botao {
+    padding: 0.5rem;
+  }
 }

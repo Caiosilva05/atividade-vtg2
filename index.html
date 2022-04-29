@@ -18,11 +18,13 @@
 <body>
   <header>
     <nav class="navbar navbar-light bg-light">
-      <div class="container-fluid">
+      <div class="container-fluid d-flex container">
         <a class="navbar-brand">Start Bootstrap</a>
         <form class="d-flex">
           <button class="btn btn-primary" type="submit">Sign Up</button>
         </form>
+
+      </div>
       </div>
     </nav>
   </header>
@@ -31,8 +33,7 @@
 
     <section id="header-oceano">
       <div class="imagem-oceano1">
-        <img src="imagens/oceano.png" class="img-fluid" alt="Oceano">
-        <h1 class="texto-imagem1 text-center">Generate more leads with a professional landing page!</h1>
+        <h1 class="texto-imagem1 text-center">Generate more leads with a <br> professional landing page!</h1>
         <div class="email-imagem">
           <input type="email" class="form-control input-email" id="exampleInputEmail1" aria-describedby="emailHelp">
           <button type="submit" class="btn btn-primary input-botao">Submit</button>
@@ -43,31 +44,39 @@
 
 
     <section id="icones">
-      <img src="imagens/browser64px.png" alt="" class="simbolo1">
-      <h2 class="texto-simbolo text-center">Fully responsive</h2>
-      <p class="texto-descricao text-center">This theme will look great on any device, no matter the size!</p>
-
-      <img src="imagens/layers64px.png" alt="" class="simbolo2">
-      <h2 class="texto-simbolo text-center">Bootstrap 5 Ready</h2>
-      <p class="texto-descricao text-center">Featuring the latest build of the new Bootstrap 5 framework!</p>
-
-      <img src="imagens/command-window64px.png" alt="" class="simbolo3">
-      <h2 class="texto-simbolo text-center">Easy to use</h2>
-      <p class="texto-descricao text-center">Ready to use with your own content, or customize the source files!</p>
+      <div class="icones-flex">
+        <img src="imagens/browser64px.png" alt="" class="simbolo1">
+        <h2 class="texto-simbolo text-center">Fully responsive</h2>
+        <p class="texto-descricao text-center">This theme will look great on any device, no matter the size!</p>
+        <img src="imagens/layers64px.png" alt="" class="simbolo2">
+        <h2 class="texto-simbolo text-center">Bootstrap 5 Ready</h2>
+        <p class="texto-descricao text-center">Featuring the latest build of the new Bootstrap 5 framework!</p>
+        <img src="imagens/command-window64px.png" alt="" class="simbolo3">
+        <h2 class="texto-simbolo text-center">Easy to use</h2>
+        <p class="texto-descricao text-center">Ready to use with your own content, or customize the source files!</p>
+      </div>
     </section>
 
     <section id="info">
-      <img src="imagens/phone.png" class="img-fluid img-celular" alt="...">
-      <h2 class="titulo-descricao2">Fully Responsive Design</h2>
-      <p class="texto-descricao2">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device,wheter it's a phone, tablet, or desktop the page will behave responsively!</p>
 
-      <img src="imagens/code.png" class="img-fluid img-codigo-note" alt="...">
-      <h2 class="titulo-descricao2">Update For Bootstrap 5</h2>
-      <p class="texto-descricao2">Newly improved, and full of great utility classes, Bootstrap 5 is leading the way in mobile responsive web development! All of the theme on Start Bootstrap are now using Bootstrap 5!</p>
+      <div class="info-imagens">
 
-      <img src="imagens/note.png" class="img-fluid img-codigo-note" alt="...">
-      <h2 class="titulo-descricao2">Easy to Use & Customize</h2>
-      <p class="texto-descricao2">Landing Pages is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+        <div id="celular-texto">
+          <img src="imagens/phone.png" class="img-fluid img-celular" alt="...">
+          <h2 class="titulo-descricao2">Fully Responsive Design</h2>
+          <p class="texto-descricao2">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device,wheter it's a phone, tablet, or desktop the page will behave responsively!</p>
+        </div>
+        <div id="codigo-texto">
+          <img src="imagens/code.png" class="img-fluid img-codigo-note" alt="...">
+          <h2 class="titulo-descricao2">Update For Bootstrap 5</h2>
+          <p class="texto-descricao2">Newly improved, and full of great utility classes, Bootstrap 5 is leading the way in mobile responsive web development! All of the theme on Start Bootstrap are now using Bootstrap 5!</p>
+        </div>
+        <div id="note-texto">
+          <img src="imagens/note.png" class="img-fluid img-codigo-note" alt="...">
+          <h2 class="titulo-descricao2">Easy to Use & Customize</h2>
+          <p class="texto-descricao2">Landing Pages is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+        </div>
+      </div>
     </section>
 
     <section id="comentarios">
@@ -78,19 +87,22 @@
 
       <img src="imagens/homem.png" alt="" class="img-circular">
       <h3 class="nome text-center">Fred S.</h3>
-      <p class="comentario2-3 text-center">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
+      <p class="comentario text-center">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
 
       <img src="imagens/mulher2.png" alt="" class="img-circular">
       <h3 class="nome text-center">Sarah W.</h3>
-      <p class="comentario2-3 text-center">"Thanks so much for making these free resources available to us!"</p>
+      <p class="comentario text-center">"Thanks so much for making these free resources available to us!"</p>
     </section>
 
     <footer class="text-center">
 
       <section id="footer-oceano">
         <div class="imagem-oceano2">
-          <img src="imagens/oceano.png" class="img-fluid imagem-oceano2" alt="...">
           <h1 class="texto-imagem2 text-center">Ready to get started? Sign up now!</h1>
+          <div class="email-imagem">
+            <input type="email" class="form-control input-email" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <button type="submit" class="btn btn-primary input-botao">Submit</button>
+          </div>
         </div>
 
         <div class="links-rodape">
@@ -110,8 +122,6 @@
         </div>
       </section>
     </footer>
-
-
   </main>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>

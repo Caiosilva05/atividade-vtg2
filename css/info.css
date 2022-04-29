@@ -9,7 +9,7 @@
 
 .texto-descricao2 {
   text-align: justify;
-  margin: 1rem 3rem 0 3rem;
+  margin: 0.3rem 3rem 0 3rem;
 }
 
 .img-codigo-note {
@@ -17,4 +17,11 @@
 }
 
 @media screen and (min-width: 1024px) {
+  #celular-texto {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .img-celular {
+    width: 500px;
+  }
 }
