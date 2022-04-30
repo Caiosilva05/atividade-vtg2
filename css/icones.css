@@ -31,4 +31,18 @@ p {
 }
 
 @media screen and (min-width: 1024px) {
+  .icones-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .simbolos {
+    margin: 5rem auto 1rem auto;
+  }
+
+  .texto-descricao {
+    margin: 0 6.5rem 3rem 6.5rem;
+    padding: 0 4rem 0 4rem;
+  }
 }

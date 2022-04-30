@@ -18,10 +18,11 @@
 }
 
 .link {
-  margin: 0 0.8rem;
+  margin: 0 0.5rem;
 }
 
 .copy {
+  margin-top: 0.5rem;
   color: #9da8b5;
   font-size: 0.8rem;
 }
@@ -31,5 +32,42 @@
   padding-left: 1rem;
 }
 
+@media screen and (min-width: 768px) {
+  .input-email {
+    position: relative;
+    width: 800px;
+    margin: 1rem 1rem;
+  }
+}
+
 @media screen and (min-width: 1024px) {
+  .imagem-oceano2 {
+    background-image: url(/imagens/oceano.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+  }
+
+  .texto-imagem2 {
+    position: relative;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .input-email {
+    position: relative;
+    width: 3rem;
+    padding: 1rem 23rem;
+    margin: 0 1rem;
+  }
+
+  .links-rodape {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .copy {
+    margin-right: 9rem;
+  }
 }

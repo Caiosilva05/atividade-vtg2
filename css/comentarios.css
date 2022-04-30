@@ -18,5 +18,19 @@
   margin: 0 2.5rem 3rem 2.5rem;
 }
 
+@media screen and (min-width: 768px) {
+  .comentario {
+    margin: 1rem 16.5rem 3rem 16.5rem;
+  }
+}
+
 @media screen and (min-width: 1024px) {
+  .comentarios-flex {
+    display: flex;
+    justify-content: center;
+  }
+
+  .comentario {
+    width: 200px;
+  }
 }
