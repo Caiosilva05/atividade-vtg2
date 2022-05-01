@@ -23,18 +23,23 @@
 }
 
 .texto-descricao {
-  margin: 0 4rem 3rem 4.3rem;
+  margin: 0 3rem 3rem 3rem;
 }
 
 p {
   color: grey;
 }
 
+@media screen and (min-width: 768px) {
+  .texto-descricao {
+    margin: 0 10rem 3rem 10rem;
+    padding: 0 7rem 0 7rem;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .icones-flex {
     display: flex;
-    align-items: center;
-    justify-content: center;
   }
 
   .simbolos {

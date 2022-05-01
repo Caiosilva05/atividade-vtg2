@@ -9,8 +9,10 @@
 
 .texto-imagem2 {
   position: relative;
-  width: 100%;
   color: #fff;
+  width: 380px;
+  padding: -3rem;
+  margin: 0 -6.2rem 1rem -6.2rem;
 }
 
 .links-rodape {
@@ -33,6 +35,12 @@
 }
 
 @media screen and (min-width: 768px) {
+  .texto-imagem2 {
+    position: relative;
+    width: 100%;
+    margin: 0 auto 1rem auto;
+  }
+
   .input-email {
     position: relative;
     width: 800px;
