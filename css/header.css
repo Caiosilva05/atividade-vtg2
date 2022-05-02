@@ -42,13 +42,13 @@
   .texto-imagem1 {
     position: relative;
     margin: 0 auto 1rem auto;
-    width: 540px;
+    width: 500px;
     color: #fff;
   }
 
   .input-email {
     position: relative;
-    width: 3rem;
+    width: 300px;
     padding: 1rem 12rem;
     margin: 0 1rem;
   }
@@ -78,8 +78,8 @@
 
   .input-email {
     position: relative;
-    width: 28%;
-    padding: 0.5rem 5rem;
+    width: 450px;
+    padding: 1rem 1rem;
     margin-right: 1rem;
     margin-left: 1rem;
   }
